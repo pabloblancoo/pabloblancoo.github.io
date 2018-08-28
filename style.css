@@ -233,7 +233,7 @@ p {
 
 .section-heading > h2 {
     font-weight: 300;
-    color: #5b32b4;
+    color: #5873E0;
     font-size: 48px;
     margin: 0;
 }
@@ -398,7 +398,7 @@ p {
 /* stcicky css */
 
 .header_area.sticky {
-    background-color: #884bdf;
+    background-color: #5C87E3;
     -webkit-box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
             box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
     height: 70px;
@@ -424,7 +424,7 @@ p {
 -------------------------- */
 
 .wellcome_area {
-    background-image: url(img/bg-img/welcome-bg.png);
+    background-image: url(img/bg-img/welcome-bg2.png);
     height: 900px;
     position: relative;
     z-index: 1;
@@ -552,7 +552,7 @@ p {
 
 .single-special > h4 {
     font-size: 22px;
-    color: #5b32b4;
+    color: #5873E0;
 }
 
 .single-icon {
@@ -561,7 +561,7 @@ p {
 
 .single-special > h4 {
     font-size: 22px;
-    color: #5b32b4;
+    color: #5873E0;
     margin-bottom: 15px;
 }
 
@@ -576,7 +576,7 @@ p {
 }
 
 .special_description_content > h2 {
-    color: #5b32b4;
+    color: #5873E0;
     font-size: 48px;
     margin-bottom: 30px;
 }
@@ -680,7 +680,7 @@ p {
 
 .single-feature > h5 {
     font-size: 22px;
-    color: #5b32b4;
+    color: #5873E0;
 }
 
 .single-feature > p {
@@ -860,7 +860,7 @@ p {
 }
 
 .single-price-plan .package-plan > h5 {
-    color: #5b32b4;
+    color: #5873E0;
     font-size: 18px;
 }
 
@@ -921,7 +921,7 @@ p {
 -------------------------- */
 
 .clients-feedback-area .client-name > h5 {
-    color: #5b32b4;
+    color: #5873E0;
     font-size: 22px;
     margin-top: 5px;
 }
@@ -1034,12 +1034,12 @@ p {
 -------------------------- */
 
 .our-monthly-membership {
-    background: #a865e1;
-    background: -webkit-linear-gradient(to left, #7873ed, #a865e1);
-    background: -webkit-linear-gradient(right, #7873ed, #a865e1);
-    background: -webkit-gradient(linear, right top, left top, from(#7873ed), to(#a865e1));
-    background: -o-linear-gradient(right, #7873ed, #a865e1);
-    background: linear-gradient(to left, #7873ed, #a865e1);
+    background: #6191E7;
+    background: -webkit-linear-gradient(to left, #6191E7, #5251DA);
+    background: -webkit-linear-gradient(right, #6191E7, #5251DA);
+    background: -webkit-gradient(linear, right top, left top, from(#6191E7), to(#5251DA));
+    background: -o-linear-gradient(right, #6191E7, #5251DA);
+    background: linear-gradient(to left, #6191E7, #5251DA);
 }
 
 .membership-description > h2 {
@@ -1065,7 +1065,7 @@ p {
 }
 
 .get-started-button > a:hover {
-    background: #5b32b4;
+    background: #5873E0;
     color: #fff;
     -webkit-transition-duration: 500ms;
     -o-transition-duration: 500ms;
@@ -1093,7 +1093,7 @@ p {
 
 .member-text > h4 {
     font-size: 22px;
-    color: #5b32b4;
+    color: #5873E0;
 }
 
 .member-text > p {
@@ -1170,7 +1170,7 @@ p {
 .address-text > p > span,
 .phone-text > p > span,
 .email-text > p > span {
-    color: #5b32b4;
+    color: #5873E0;
 }
 
 .footer-contact-area .line-shape {
@@ -1211,7 +1211,7 @@ p {
 }
 
 .btn.submit-btn:hover {
-    background: #5b32b4;
+    background: #5873E0;
     color: #fff;
     -webkit-transition-duration: 500ms;
     -o-transition-duration: 500ms;
@@ -1231,13 +1231,13 @@ p {
 -------------------------- */
 
 .footer-text > h2 {
-    color: #5b32b4;
+    color: #5873E0;
     font-size: 72px;
     font-weight: 700;
 }
 
 .footer-social-icon > a > i {
-    background: #9b69e4;
+    background: #514BD8;
     font-size: 14px;
     color: #ffffff;
     height: 40px;
@@ -1249,7 +1249,7 @@ p {
 }
 
 .footer-social-icon > a > i:hover {
-    background: #fb397d;
+    background: #5873E0;
     color: #fff;
     -webkit-transition-duration: 500ms;
     -o-transition-duration: 500ms;
@@ -1564,4 +1564,12 @@ p {
         -webkit-transform: rotate(90deg);
         transform: rotate(90deg);
     }
+}
+
+
+
+
+/* =========================================== FAQ ========================================= */
+#faq h4{
+    color: #5873E0;
 }

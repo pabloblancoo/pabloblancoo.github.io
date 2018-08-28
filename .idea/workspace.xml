@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8ea8ea1e-f5d9-4c10-b3a9-5dc94ae3f5af" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/firebase.js" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/bg-img/video.jpg" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/style.css" afterPath="$PROJECT_DIR$/style.css" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -25,8 +26,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="569">
-              <caret line="480" column="9" lean-forward="true" selection-start-line="480" selection-start-column="9" selection-end-line="480" selection-end-column="9" />
+            <state relative-caret-position="384">
+              <caret line="334" column="22" lean-forward="true" selection-start-line="334" selection-start-column="22" selection-end-line="334" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -35,8 +36,8 @@
       <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1295" column="17" lean-forward="false" selection-start-line="1295" selection-start-column="17" selection-end-line="1295" selection-end-column="17" />
+            <state relative-caret-position="773">
+              <caret line="1573" column="12" lean-forward="false" selection-start-line="1573" selection-start-column="12" selection-end-line="1573" selection-end-column="12" />
               <folding />
             </state>
           </provider>
@@ -85,16 +86,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>contacta</find>
-      <find>cont</find>
-      <find>ctanos</find>
-      <find>ca.</find>
-      <find>get started</find>
-      <find>why</find>
-      <find>awes</find>
-      <find>oficiale</find>
-      <find>name@</find>
-      <find>welcome-thumb</find>
       <find>qué</find>
       <find>pricing</find>
       <find>contact</find>
@@ -107,7 +98,30 @@
       <find>olvidate</find>
       <find>nete a</find>
       <find>form</find>
+      <find>welcome-</find>
+      <find>welcome</find>
+      <find>5b32b4</find>
+      <find>our</find>
+      <find>a865e1</find>
+      <find>twitt</find>
+      <find>grad</find>
+      <find>footer-social-icon</find>
+      <find>chip</find>
+      <find>c</find>
+      <find>h3</find>
+      <find>can i t</find>
+      <find>can i c</find>
+      <find>propias notic</find>
+      <find>faq</find>
+      <find>estan</find>
+      <find>volveran</find>
+      <find>presif</find>
     </findStrings>
+    <replaceStrings>
+      <replace>5873E0</replace>
+      <replace>#6191E7</replace>
+      <replace>5251DA</replace>
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -115,8 +129,8 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/style.css" />
         <option value="$PROJECT_DIR$/js/firebase.js" />
+        <option value="$PROJECT_DIR$/style.css" />
         <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
@@ -189,6 +203,74 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pabloblancoo.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pabloblancoo.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="img" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pabloblancoo.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pabloblancoo.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="img" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="scr-img" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pabloblancoo.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pabloblancoo.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="img" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="core-img" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pabloblancoo.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pabloblancoo.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="img" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bg-img" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scratches" />
@@ -196,7 +278,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../esports/graphql/graphql.esportscalendar.app" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
     <property name="js.eslint.eslintPackage" value="" />
@@ -291,12 +373,12 @@
       <updated>1534886141908</updated>
       <workItem from="1534886143061" duration="3812000" />
       <workItem from="1535038306000" duration="2558000" />
-      <workItem from="1535301049132" duration="750000" />
+      <workItem from="1535301049132" duration="7001000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7120000" />
+    <option name="totallyTimeSpent" value="13371000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -395,11 +477,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/img/bg-img/special.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/responsive.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -434,18 +511,43 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/img/bg-img/welcome-img.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/bg-img/video.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/bg-img/special.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/bg-img/welcome-bg2.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/bg-img/welcome-bg.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1295" column="17" lean-forward="false" selection-start-line="1295" selection-start-column="17" selection-end-line="1295" selection-end-column="17" />
+        <state relative-caret-position="773">
+          <caret line="1573" column="12" lean-forward="false" selection-start-line="1573" selection-start-column="12" selection-end-line="1573" selection-end-column="12" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="569">
-          <caret line="480" column="9" lean-forward="true" selection-start-line="480" selection-start-column="9" selection-end-line="480" selection-end-column="9" />
+        <state relative-caret-position="384">
+          <caret line="334" column="22" lean-forward="true" selection-start-line="334" selection-start-column="22" selection-end-line="334" selection-end-column="22" />
           <folding />
         </state>
       </provider>
