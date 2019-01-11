@@ -42,7 +42,7 @@
 		 <article class="col-6 col-12-xsmall work-item">
 			<a href="${item.thumbnail}" class="image fit thumb"><img src="${item.thumbnail}" alt="${item.title}"/></a>
 			<a href="${item.link}"><h3>${shortenText(item.title, 0, 30) + '...'}</h3></a>
-			<a href="${item.link}"><p>${shortenText(toText(item.content), 60, 300) + '...'}</p></a>
+			<a href="${item.link}"><p>${shortenText(toText(item.content), 0, 240) + '...'}</p></a>
 		</article>`
 
 			})
