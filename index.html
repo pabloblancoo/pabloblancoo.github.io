@@ -12,46 +12,6 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 	<link rel="stylesheet" href="assets/css/main.css" />
 </head>
-<script>
-	//More info in https://medium.com/@KonradDaWo/how-to-display-medium-posts-on-a-website-with-plain-vanilla-js-basic-api-usage-example-865507848c2
-
-	// fetch('https://api.rss2json.com/v1/api.json?rss_url=https://medium.com/feed/@pabloblancoo')
-	// 	.then((res) => res.json())
-	// 	.then((data) => {
-	// 		// Filter for acctual posts. Comments don't have categories, therefore can filter for items with categories bigger than 0
-	// 		const res = data.items //This is an array with the content. No feed, no info about author etc..
-	// 		const posts = res.slice(0,7);	//.filter(item => item.categories.length > 0) // That's the main trick* !
-
-	// 		// Functions to create a short text out of whole blog's content
-	// 		function toText(node) {
-	// 			let tag = document.createElement('div')
-	// 			tag.innerHTML = node
-	// 			node = tag.innerText
-	// 			return node
-	// 		}
-	// 		function shortenText(text, startingPoint, maxLength) {
-	// 			return text.length > maxLength ?
-	// 				text.slice(startingPoint, maxLength) :
-	// 				text
-	// 		}
-
-	// 		// Put things in right spots of markup
-	// 		let output = '';
-	// 		posts.forEach((item) => {
-	// 			output += `
-	// 	 <article class="col-6 col-12-xsmall work-item">
-	// 		<a href="${item.thumbnail}" class="image fit thumb"><img src="${item.thumbnail}" alt="${item.title}"/></a>
-	// 		<a href="${item.link}"><h3>${shortenText(item.title, 0, 30) + '...'}</h3></a>
-	// 		<a href="${item.link}"><p>${shortenText(toText(item.content), 0, 240) + '...'}</p></a>
-	// 	</article>`
-
-	// 		})
-
-	// 		document.querySelector('.blog__slider').innerHTML = output
-	// 	})
-
-
-</script>
 
 <body class="is-preload">
 
@@ -76,7 +36,8 @@
 			<header class="major">
 				<h2>What's this?</h2>
 			</header>
-			<p>This is my personal web page. Here you can follow me on my social networks and read articles that I write. Sometimes I will
+			<p>This is my personal web page. Here you can follow me on my social networks and read articles that I write.
+				Sometimes I will
 				speak about technology, other times just tell my opinion about some topics I think interesting.
 			</p>
 			<!--<ul class="actions">
@@ -88,78 +49,68 @@
 		<section id="two">
 			<h2>Last articles</h2>
 			<div class="row blog__slider">
-					<article class="col-6 col-12-xsmall work-item">
-							<a href="https://cdn-images-1.medium.com/max/1024/1*q_KReDV1TYd-a5LpHuExHQ.jpeg" class="image fit thumb"><img src="https://cdn-images-1.medium.com/max/1024/1*q_KReDV1TYd-a5LpHuExHQ.jpeg" alt="imagen"/></a>
-							<a href="https://medium.com/@pabloblancoo/una-mirada-a32fbdea93cf"><h3>Una mirada</h3></a>
-							<a href="https://medium.com/@pabloblancoo/una-mirada-a32fbdea93cf"><p>¿Cuándo fue la ultima vez que miraste a los ojos a la persona que tenias delante?
-									Los ojos son el espejo del alma, y no hay nada más bonito que ver el alma de una persona.</p></a>
-						</article>
-						<article class="col-6 col-12-xsmall work-item">
-								<a href="https://cdn-images-1.medium.com/max/1024/1*zhBZ9DwJDh1SdgzEZoD2qA@2x.jpeg" class="image fit thumb"><img src="https://cdn-images-1.medium.com/max/1024/1*zhBZ9DwJDh1SdgzEZoD2qA@2x.jpeg" alt="imagen"/></a>
-								<a href="https://medium.com/@pabloblancoo/un-a%C3%B1o-d5d8941b38f0?"><h3>Un año</h3></a>
-								<a href="https://medium.com/@pabloblancoo/un-a%C3%B1o-d5d8941b38f0?"><p>Hace un año que empecé uno de los peores años de mi vida. Todo parecía estar bien, empezaba un máster con ilusión, tan solo 2 meses después de haber presentado mi Trabajo de Fin de Grado. Era un nuevo reto, algo por lo que luchar para estar más cerca de mis objetivos.</p></a>
-							</article>
 			</div>
 		</section>
+	</div>
+
+	<!-- Footer -->
+	<footer id="footer">
+		<div class="inner">
+			<ul class="icons">
+				<li>
+					<a href="https://twitter.com/PabloBlancoo" class="icon fa-twitter">
+						<span class="label">Twitter</span>
+					</a>
+				</li>
+				<li>
+					<a href="https://www.facebook.com/pabloblancopacho" class="icon fa-facebook">
+						<span class="label">Facebook</span>
+					</a>
+				</li>
+				<li>
+					<a href="https://www.linkedin.com/in/pabloblancoo/" class="icon fa-linkedin">
+						<span class="label">LinkedIn</span>
+					</a>
+				</li>
+				<li>
+					<a href="https://www.instagram.com/pabloblancopacho/" class="icon fa-instagram">
+						<span class="label">Instagram</span>
+					</a>
+				</li>
+				<li>
+					<a href="https://medium.com/@pabloblancoo" class="icon fa-medium">
+						<span class="label">Medium</span>
+					</a>
+				</li>
+				<li>
+					<a href="https://github.com/pabloblancoo" class="icon fa-github">
+						<span class="label">Github</span>
+					</a>
+				</li>
+				<li>
+					<a href="mailto:pabloblpa@hotmail.com" class="icon fa-envelope-o">
+						<span class="label">Email</span>
+					</a>
+				</li>
+			</ul>
+			<ul class="copyright">
+				<li>&copy; Pablo Blanco</li>
+				<li>Design:
+					<a href="http://html5up.net">HTML5 UP</a>
+				</li>
+			</ul>
 		</div>
+	</footer>
 
-		<!-- Footer -->
-		<footer id="footer">
-			<div class="inner">
-				<ul class="icons">
-					<li>
-						<a href="https://twitter.com/PabloBlancoo" class="icon fa-twitter">
-							<span class="label">Twitter</span>
-						</a>
-					</li>
-					<li>
-						<a href="https://www.facebook.com/pabloblancopacho" class="icon fa-facebook">
-							<span class="label">Facebook</span>
-						</a>
-					</li>
-					<li>
-						<a href="https://www.linkedin.com/in/pabloblancoo/" class="icon fa-linkedin">
-							<span class="label">LinkedIn</span>
-						</a>
-					</li>
-					<li>
-						<a href="https://www.instagram.com/pabloblancopacho/" class="icon fa-instagram">
-							<span class="label">Instagram</span>
-						</a>
-					</li>
-					<li>
-						<a href="https://medium.com/@pabloblancoo" class="icon fa-medium">
-							<span class="label">Medium</span>
-						</a>
-					</li>
-					<li>
-						<a href="https://github.com/pabloblancoo" class="icon fa-github">
-							<span class="label">Github</span>
-						</a>
-					</li>
-					<li>
-						<a href="mailto:pabloblpa@hotmail.com" class="icon fa-envelope-o">
-							<span class="label">Email</span>
-						</a>
-					</li>
-				</ul>
-				<ul class="copyright">
-					<li>&copy; Pablo Blanco</li>
-					<li>Design:
-						<a href="http://html5up.net">HTML5 UP</a>
-					</li>
-				</ul>
-			</div>
-		</footer>
-
-		<!-- Scripts -->
-		<script src="assets/js/jquery.min.js"></script>
-		<script src="assets/js/jquery.poptrox.min.js"></script>
-		<script src="assets/js/browser.min.js"></script>
-		<script src="assets/js/breakpoints.min.js"></script>
-		<script src="assets/js/util.js"></script>
-		<script src="assets/js/main.js"></script>
-
+	<!-- Scripts -->
+	<script src="assets/js/jquery.min.js"></script>
+	<script src="assets/js/jquery.poptrox.min.js"></script>
+	<script src="assets/js/browser.min.js"></script>
+	<script src="assets/js/breakpoints.min.js"></script>
+	<script src="assets/js/util.js"></script>
+	<script src="assets/js/main.js"></script>
+	<script src="assets/js/mediumData.js"></script>
+	
 </body>
 
 </html>
