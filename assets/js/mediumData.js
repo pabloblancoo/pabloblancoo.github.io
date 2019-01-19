@@ -37,7 +37,7 @@ $.ajax(feed, {
             output += `
             <article class="col-6 col-12-xsmall work-item">
                 <a href="${imageSrc}" class="image fit thumb"><img src="${imageSrc}" alt="${title}"/></a>
-                <a href="${link}"><h3>${shortenText(title, 0, 30) + '...'}</h3></a>
+                <a href="${link}"><h3>${title}</h3></a>
                 <a href="${link}"><p>${shortenText(toText(description), 0, 240) + '...'}</p></a>
             </article>`;
         });
